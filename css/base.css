@@ -50,6 +50,8 @@ width: 226px;
 margin: 6px auto;
 }
 
+
+
 header{
 
   background-color: #232323;
@@ -131,6 +133,7 @@ line-height: 38px;
  /* border-bottom: 1px solid #e1e8ed;*/
   color: #dcdcdc;
 line-height: 185%;
+height: 100%;
 
 }
 .col{
@@ -139,6 +142,7 @@ line-height: 185%;
 	margin:5% 5%;
 	background-color: #232323;
 	text-align: justify;
+	
 }
 
 
@@ -148,8 +152,16 @@ line-height: 185%;
 	border:1px solid #dcdcdc;
 }
 
+.dad_link{
+	background-color: white;
+	padding:10px;
+	text-decoration: none;
+}
+
+
 footer{
 	clear:both;
+	color: #232323;
 }
 footer p{
 	display: inline-block;
@@ -158,23 +170,16 @@ footer p{
 	margin-top: 16px;
 	margin-left: 25px;
 }
-i{
-   color:rgb(223, 10, 24);
-   /*float: right;*/
 
-}
 .icons{
 	float: right;
 	margin-top: 16px;
 	margin-right: 25px;
-}
-
-
-
-.icons .fa{
 	font-size: 2em;
 	padding-left: 10px;
 }
+
+
 
 
 /*triangle tab thing:
