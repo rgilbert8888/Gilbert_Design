@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <!--logo left side-->
-        <h1> <strong>Gilbert Design</strong>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+  <!-- <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <!--logo left side-->
+      <h1> <strong>Gilbert Design</strong>
         <small style="color: #dcdcdc">Incorporated</small>
-        </h1>
-        <!--     nav bar -->
-        <nav>
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="services.html">Services</a>
-            </li>
-            <li>
-              <a href="designs.html">Designs</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
+      </h1>
+      <!--     nav bar -->
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li>
+            <a href="designs.html">Designs</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-        <div style="clear: both"></div>
-      </header>
-  <!--    begin contact form  -->     
-      <div id="contact_form">
-        
-        <form>
-          First name:<br>
-          <input type="text" name="firstname">
-          <br>
-          Last name:<br>
-          <input type="text" name="lastname">
-          <br>
-          Company:<br>
-          <input type="text" name="company">
-          <br>
-          E-mail:<br>
-          <input type="email" name="email">
-          <br>
-          Inquiry:
-          <br>
+      <div style="clear: both"></div>
+    </header>
+    <!--    begin contact form  -->     
+    <div id="contact_form">
 
-          <textarea rows="4" cols="50"></textarea>
+      <div>
+        First name:<br>
+        <input type="text" id="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" id="lastname">
+        <br>
+        Company:<br>
+        <input type="text" id="company">
+        <br>
+        E-mail:<br>
+        <input type="email" id="email">
+        <br>
+        I want to know more about...<br>
+        <label>Exhibits 
+          <input type="checkbox" id="interest1"/>
+        </label>
+        <label>Renderings 
+          <input type="checkbox" id="interest2"/>
+        </label>
+        <label>Store Design
+          <input type="checkbox" id="interest3"/>
+        </label>
+        <br>
+        <label>Message</label>
+        <br>
+          <textarea rows="4" cols="50" id="textarea"></textarea>
 
-          <input type="submit" value="Submit">
-        </form>
-
+  
+          <input type="submit" id="submit" value="Submit">
+        </div>
+        <div id="email_preview"></div>
       </div>
 
       <div class="push"></div>
@@ -67,18 +78,19 @@
       <p>888 Roscommon Road<br>
         Bryn Mawr, Pennsylvania 19010<br>
         T-610-527-6171<br>
-      E-gilbertdesign@comcast.net</p>
-      <!-- icon set of three right side-->
-      <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-google-plus"></i>
-        <i class="fa fa-rss"></i>
-      </div>
-    </footer>
-    
-    
-    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+        E-gilbertdesign@comcast.net</p>
+        <!-- icon set of three right side-->
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-google-plus"></i>
+          <i class="fa fa-rss"></i>
+        </div>
+      </footer>
+
+
+      <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+      <script src="js/main.js"></script>
+        
+    </body>
+    </html>

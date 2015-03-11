@@ -88,7 +88,7 @@ nav a:hover{
 	color:rgb(223, 10, 24);;
 }
 
-/*overlay*/
+/* index page overlay*/
 
 #under{
 	  height:100%;
@@ -130,24 +130,18 @@ nav a:hover{
 }
 
 
-
 header{
-
-  background-color: #232323;
+	background-color: #232323;
 	font-size: 14px;
-   margin: 0px;
-   top:0px;
-   width: 100%;
+	margin: 0px;
+	top:0px;
+	width: 100%;
 }
-
-
 
 #band, footer{
 	background-color:  #232323;
 	color: #dcdcdc;
 }
-
-
 
 #band h2 {
 	margin: 0px;
@@ -166,9 +160,8 @@ header{
 	color: #dcdcdc;
 	line-height: 175%;
 	height: 100%;
-
 }
-
+ /*columns*/
 #col_wrap{
 	margin:0 auto;
 }
@@ -179,9 +172,7 @@ header{
 	background-color: #dcdcdc;
 	text-align: justify;
 	color: #232323;
-	
 }
-
 
 .col img {
 	width: 100%;
@@ -198,8 +189,8 @@ header{
 	background-color: white;
 	padding:10px;
 	text-decoration: none;
-}
-
+	}
+	
 
 footer p{
 	display: inline-block;
@@ -216,30 +207,31 @@ footer p{
 	padding-left: 10px;
 
 }
-
+/*
+services page*/
 .content_wrapper{
 	width: 800px;
-	margin: 5em auto;
-	
+	margin: 3em auto;
 	color:#232323;
 }
+
+
 aside{
 	float: right;
-
-  width: 50%;
+	width: 50%;
 }
 
 
 #services{
 	float: left;
-  width: 43%;
-  font-size: 25px;
+  	width: 43%;
+  	font-size: 25px;
 }
 
 #services_list{
-	  	  margin-left: 0px;
-	  	  margin-top: 15px;
-  font-size: 25px;
+	margin-left: 0px;
+	margin-top: 15px;
+	font-size: 25px;
 }
 
 #services_list li{
@@ -247,40 +239,47 @@ aside{
 
 }
 
-
-aside{
-	background-color: #232323;
-	color:  #dcdcdc;
-
-}
-aside ul{
-	list-style: none;
-	padding: 0px;
-
-}
-
-aside ul li{
-	margin: 5px 0px;
-}
-
 .fa-chevron-right{
 	margin-right: 8px;
 	color:rgb(223, 10, 24);
 }
 
+aside h2, #services h2{
+	font-size: 35px;
+}
 
-aside .push{
-	height: 9em;
+aside{
+	background-color: #232323;
+	color:  #dcdcdc;
+}
+
+aside h2, aside ul{
+	padding: 10px;
 }
 
 
-  .gal_wrapper{
+aside ul li{
+	margin: 30px 0px;
+	list-style: none;
+}
+
+aside h2, aside ul {
+  padding: 10px;
+}
+
+aside .push{
+	height: 4em;
+}
+
+
+/*gallery page*/
+.gal_wrapper{
   	width:720px;
   	margin: 0 auto;
 
   }
 
-  .entry{
+.entry{
 	width:220px;
 	float: left;
 	background-color: grey;
@@ -316,12 +315,13 @@ aside .push{
   }
 
 
+.test{
+	color:green;
+}
 
-
-
-
-
-
+#contact_form{
+	margin: auto 5%;
+}
 
 
 

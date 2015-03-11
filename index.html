@@ -103,5 +103,16 @@
   </footer>
   <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+
+
+var visitorName = window.prompt("What is your name?");
+if(visitorName){
+  $('#band h2').text("Hello " + visitorName + "!").addClass('test');
+}
+
+});
+  </script>
 </body>
 </html>
