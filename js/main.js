@@ -10,43 +10,50 @@ $(document).ready(function(){
             var check = $('input:checked').length > 0;
 
             if(fname){  //if fname conrains something //
-              message = "Hello " + fname;
+              message = "Hello, my name is " + fname;
 
               if(lname){
                 message += " " + lname;
               }
 
-              message += "<br/><br/>";
+              message += ".<br/><br/>";
             }
 
             if(company){
-              message += " Company: " + company + "<br/><br/>";
+              message += " My company is called " + company + ".<br/><br/>";
             }
 
             if(email){
-              message += " Email: " + email + "<br/><br/>";
+              message += " Email me at " + email + ".<br/><br/>";
+            }
+             if(check){
+               message+= " I am interested in learning more about...<br/>";
+              $('input:checked').each(function(){
+                message += $(this).parent().text() + "<br/><br/>";
+              });
             }
 
             if(textArea){
-              message+= " Message: " +textArea+ "<br/><br/>";
+              message+= " My message: " +textArea+ ".<br/><br/>";
               if (textArea.length>100){
-                alert("too long!");
+                alert("Your message is too long!");
               };
 //figure out how to count down characters//
             }
-
-            if(check){
-               message+= " I am interested in:<br/>";
-              $('input:checked').each(function(){
-                message += $(this).parent().text() + "<br/>";
-              });
-            }
+        
             $('#email_preview').html(message);
 
             return false;
           });
 
-        });
+  $('input, textarea').hover(function(){
+     $(this).toggleClass('text_area','5000');
+     });
+  });
+
+   $('#send').click(function(){
+      alert("Thanks for your inquiry! We will get back to you as soon as possible.");
+   });
 
 
 // make things populate an email:
