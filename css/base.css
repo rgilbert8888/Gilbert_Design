@@ -274,7 +274,7 @@ aside .push{
 
 /*gallery page*//*
 	make images much larger!!*/
-	
+
 .gal_wrapper{
   	width:720px;
   	margin: 0 auto;
@@ -285,7 +285,7 @@ aside .push{
 	width:220px;
 	float: left;
 	background-color: #232323;
-	margin: 10px;
+	margin: 30px 10px 10px 10px;
 	height: 198px;
 	background-position: bottom;
   }
