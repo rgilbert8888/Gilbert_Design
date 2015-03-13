@@ -1,4 +1,13 @@
 $(document).ready(function(){
+
+// var visitorName = window.prompt("What is your name?");
+// if(visitorName){
+//   $('#band h2').text("Hello " + visitorName + "!").addClass('test');
+// }
+
+// });
+
+
           $('#submit').click(function(){
             var message = "";
 
@@ -41,7 +50,7 @@ $(document).ready(function(){
 //figure out how to count down characters//
             }
         
-            $('#email_preview').html(message);
+            $('#preview').html(message);
 
             return false;
           });
@@ -52,7 +61,7 @@ $(document).ready(function(){
   });
 
    $('#send').click(function(){
-      alert("Thanks for your inquiry! We will get back to you as soon as possible.");
+      alert("Thank you for your inquiry! We will get back to you as soon as possible.");
    });
 
 

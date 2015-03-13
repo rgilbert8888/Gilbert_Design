@@ -173,6 +173,7 @@ header{
 }
 
 .col img {
+	margin-top: 5%;
 	width: 100%;
 	border-radius: 100%;
 	border:1px solid #dcdcdc;
@@ -330,23 +331,20 @@ aside .push{
   	color: #dcdcdc;
   }
 
-
-.test{
-	color:green;
-}
-
-#contact_form, #email_preview{
+#contact_form, #email_preview, #preview{
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 500px;
 	padding: 25px 10px 25px 10px;
-	border-radius: 10px;
+	color:#232323;
+}
+
+#contact_form, #email_preview {	
 	background-color: white;
 	-webkit-box-shadow: 10px 10px 31px -10px rgba(0,0,0,0.75);
   	-moz-box-shadow: 10px 10px 31px -10px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 31px -10px rgba(0,0,0,0.75);
-
 }
 
 #contact_form h2{
@@ -356,28 +354,37 @@ aside .push{
 	color:#232323;
 	margin: -30px -30px 10px -30px;
 }
+
 #contact_form p{
 	margin: 15px 15px;
+}
+
+#contact_form p input{
+	float: right;
+	margin-right: 40%;
+	width: 40%;
+	color:#232323;
+	border-style: none;
+	border: 1px solid #232323;
 }
 
 textarea, label{
 	margin: 0 15px;
 }
-
-
-#email_preview{
-	color:#232323;
+textarea{
+	border-style: none;
+	border: 1px solid #232323;
 }
 
 .text_area{
-	background-color: #dcdcdc;
+	border-color: rgb(223, 10, 24);
 }
 
-/*.center_button{
-	text-align: right;
-	margin-right: 20px;
+.center_button{
+	text-align: center;
+	margin-top: 20px;
 }
-*/
+
 
 @media all and (max-width: 840px){
 
@@ -395,7 +402,6 @@ nav{
 
 nav ul{
 	padding-bottom: 10px;
-}
 
 }
 
