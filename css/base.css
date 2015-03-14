@@ -82,7 +82,9 @@ nav a{
 }
 
 nav a:hover{
-	color:rgb(223, 10, 24);;
+	color:rgb(223, 10, 24);
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(223, 10, 24);
 }
 
 /* index page overlay*/
@@ -377,7 +379,7 @@ textarea{
 }
 
 .text_area{
-	border-color: rgb(223, 10, 24);
+	background-color: #dcdcdc;
 }
 
 .center_button{
@@ -388,6 +390,9 @@ textarea{
 
 @media all and (max-width: 840px){
 
+/*header{
+	width: 100%;
+}*/
 h1{
 	margin:0 auto;
 	display: block;
@@ -401,7 +406,7 @@ nav{
 }
 
 nav ul{
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 
 }
 
